@@ -9,3 +9,14 @@ C:\Git\LearningMVC\obj\Debug\netcoreapp2.0\LearningMVC.AssemblyInfoInputs.cache
 C:\Git\LearningMVC\obj\Debug\netcoreapp2.0\LearningMVC.AssemblyInfo.cs
 C:\Git\LearningMVC\obj\Debug\netcoreapp2.0\LearningMVC.dll
 C:\Git\LearningMVC\obj\Debug\netcoreapp2.0\LearningMVC.pdb
+D:\GitHub_Orientalist\LearningMVC\bin\Debug\netcoreapp2.0\LearningMVC.deps.json
+D:\GitHub_Orientalist\LearningMVC\bin\Debug\netcoreapp2.0\LearningMVC.runtimeconfig.json
+D:\GitHub_Orientalist\LearningMVC\bin\Debug\netcoreapp2.0\LearningMVC.runtimeconfig.dev.json
+D:\GitHub_Orientalist\LearningMVC\bin\Debug\netcoreapp2.0\LearningMVC.dll
+D:\GitHub_Orientalist\LearningMVC\bin\Debug\netcoreapp2.0\LearningMVC.pdb
+D:\GitHub_Orientalist\LearningMVC\obj\Debug\netcoreapp2.0\LearningMVC.csprojResolveAssemblyReference.cache
+D:\GitHub_Orientalist\LearningMVC\obj\Debug\netcoreapp2.0\LearningMVC.csproj.CoreCompileInputs.cache
+D:\GitHub_Orientalist\LearningMVC\obj\Debug\netcoreapp2.0\LearningMVC.AssemblyInfoInputs.cache
+D:\GitHub_Orientalist\LearningMVC\obj\Debug\netcoreapp2.0\LearningMVC.AssemblyInfo.cs
+D:\GitHub_Orientalist\LearningMVC\obj\Debug\netcoreapp2.0\LearningMVC.dll
+D:\GitHub_Orientalist\LearningMVC\obj\Debug\netcoreapp2.0\LearningMVC.pdb

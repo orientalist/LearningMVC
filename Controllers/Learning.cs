@@ -1,9 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
 namespace LearningMVC.Controllers{
     public class LearningController:Controller{
-        public string Index(){
+        public IActionResult Index(){
 
-            return "View()";
+            return View();
+        }
+
+        public IActionResult DotNet(){
+            return View();
         }
     }
 }
