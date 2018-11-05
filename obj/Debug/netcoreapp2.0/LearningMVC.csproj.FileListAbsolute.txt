@@ -1,0 +1,11 @@
+C:\Git\LearningMVC\bin\Debug\netcoreapp2.0\LearningMVC.deps.json
+C:\Git\LearningMVC\bin\Debug\netcoreapp2.0\LearningMVC.runtimeconfig.json
+C:\Git\LearningMVC\bin\Debug\netcoreapp2.0\LearningMVC.runtimeconfig.dev.json
+C:\Git\LearningMVC\bin\Debug\netcoreapp2.0\LearningMVC.dll
+C:\Git\LearningMVC\bin\Debug\netcoreapp2.0\LearningMVC.pdb
+C:\Git\LearningMVC\obj\Debug\netcoreapp2.0\LearningMVC.csprojResolveAssemblyReference.cache
+C:\Git\LearningMVC\obj\Debug\netcoreapp2.0\LearningMVC.csproj.CoreCompileInputs.cache
+C:\Git\LearningMVC\obj\Debug\netcoreapp2.0\LearningMVC.AssemblyInfoInputs.cache
+C:\Git\LearningMVC\obj\Debug\netcoreapp2.0\LearningMVC.AssemblyInfo.cs
+C:\Git\LearningMVC\obj\Debug\netcoreapp2.0\LearningMVC.dll
+C:\Git\LearningMVC\obj\Debug\netcoreapp2.0\LearningMVC.pdb
