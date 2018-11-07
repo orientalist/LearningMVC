@@ -21,6 +21,13 @@ namespace LearningMVC
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDistributedMemoryCache();
+
+            services.AddSession(options=>{
+                options.IdleTimeout=TimeSpan.FromMinutes(5);
+                options.Cookie.HttpOnly=true;
+            });
+
             services.AddMvc();
         }
 
@@ -37,12 +44,13 @@ namespace LearningMVC
             }
 
             app.UseStaticFiles();
+            app.UseSession();
 
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Learning}/{action=Index}/{id?}");
+                    template: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <title>Login</title>
+        <style>
+            #space{
+                height: 20vh;
+            }
+            #loginForm{                
+                text-align: center;                
+                margin:auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border: 1px solid black;
+            }
+            #ErrorMsg{
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="space"></div>
+        <div id="loginForm">   
+            <div id="divForm">
+                <form>
+                    <h1>管理介面</h1>
+                    <div>
+                        <label for="Account_Name">帳號</label>
+                        <br>
+                        <input type="text" name="Account_Name" id="Account_Name"/>                
+                    </div>
+                    <div>
+                        <label for="Account_Password">密碼</label>
+                        <br>
+                        <input type="text" name="Account_Password" id="Account_Password"/>
+                    </div>
+                </form>            
+                <br>
+                <button id="btnLogIn">登入</button>
+                <br>
+                <span id="ErrorMsg"></span>
+            </div>                     
+        </div>        
+    </body>
+    <script>
+        $(document).ready(function(){
+            InitView();
+            $("#btnLogIn").click(function(){
+                if(ValidateInpit()){
+                    var Data={
+                        Account_Name:$("#Account_Name").val(),
+                        Account_Password:$("#Account_Password").val()
+                    };
+                    
+                    $.ajax({
+                        url:"/WebAPIs/Login",
+                        type:"POST",
+                        data:Data
+                    }).done(function(result){
+                        console.log(result);
+                    });
+                }
+            });
+                        
+        });
+        var InitView=function(){
+            var width=$("#divForm").width();
+            var height=$("#divForm").height();
+            width=width+50;
+            height=height+50;
+            $("#loginForm").width(width);
+            $("#loginForm").height(height);
+        }
+        var ValidateInpit=function(){
+            if($("#Account_Name").val().length==0){
+                $("#ErrorMsg").text("帳號未輸入");
+                    return false;
+                }                
+                if($("#Account_Password").val().length==0){
+                    $("#ErrorMsg").text("密碼未輸入");
+                    return false;
+                }
+            return true;
+        }
+    </script>
+</html>
